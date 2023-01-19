@@ -61,7 +61,6 @@ def kmeans(X, k):
 "Importing each data set"
 
 "DATA SECTION START"
-"---- Please only edit this section and apply data sheet as shown below --"
 
 "Animals data set goes here"
 data =  (pd.read_csv(r"C:\\Users\\shahn\\OneDrive\\Desktop\\animals", sep = " ", header = None))
@@ -75,8 +74,6 @@ data3 = (pd.read_csv(r"C:\\Users\\shahn\\OneDrive\\Desktop\\veggies", sep = " ",
 "Fruits data set goes here"
 data4 = (pd.read_csv(r"C:\\Users\\shahn\\OneDrive\\Desktop\\fruits", sep = " ", header = None))
 
-"Nothing here needs to be edited, only the part after r to import"
-"each data set"
 "DATA SECTION END"
 
 a = data.iloc[:, 1:]
