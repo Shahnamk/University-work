@@ -22,7 +22,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 print("Running data cleaning process please wait")
 
 #Importing Dataset from computer (Please only edit the importation of the dataset)
-image = glob.glob('C:/Users/Joe/OneDrive/Desktop/Kaggleimages/**/*.png', recursive=True)
+image = glob.glob('C:/Users/Shahnam/OneDrive/Desktop/Kaggleimages/**/*.png', recursive=True)
     
 
 #Creating arrays to store labels and images
